@@ -851,8 +851,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/dev/Newfolder/matching-engine/out/build/x64-debug",
-		"source" : "C:/dev/Newfolder/matching-engine"
+		"build" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug",
+		"source" : "C:/dev/cplusplus/matching-engine"
 	},
 	"version" : 
 	{

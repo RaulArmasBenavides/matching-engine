@@ -12,7 +12,6 @@ using namespace std;
  suerte, que se calcula como el modulo de dicho numero entre 9
 */
 
-
 // Definición de funciones
 void Enigma(int n)
 {
@@ -135,10 +134,8 @@ void FuncionObjetivo(int x[], int n, int impares[], int& nimpares, int& minimpar
 	cout << "Este es el menor número impar " << minimpar << endl;
 }
 
-
 void FuncionObjetivo(int impares[], int& nimpares, int minimpar)
 {
-
 	int distancia = 0;
 	//vector impares
 	cout << endl;
@@ -155,13 +152,20 @@ void FuncionObjetivo(int impares[], int& nimpares, int minimpar)
 
 }
 
-
-
 void mostrarVector(int a[50], int n)
 {
 	cout << "Reporte de datos del vector" << endl;
 	for (int i = 0;i < n;i++)
 		cout << a[i] << endl;
+}
+
+
+float fibo(int n)
+{
+	if (n == 0 || n == 1)  
+		return n;
+	else
+		return fibo(n - 1) + fibo(n - 2);
 }
 
 // Función principal

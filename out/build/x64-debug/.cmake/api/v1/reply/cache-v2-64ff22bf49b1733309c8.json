@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/dev/Newfolder/matching-engine/out/build/x64-debug"
+			"value" : "c:/dev/cplusplus/matching-engine/out/build/x64-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -483,7 +483,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine/out/build/x64-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/dev/Newfolder/matching-engine"
+			"value" : "C:/dev/cplusplus/matching-engine"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/dev/Newfolder/matching-engine/out/install/x64-debug"
+			"value" : "C:/dev/cplusplus/matching-engine/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine/out/build/x64-debug/overload-test1"
+			"value" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug/overload-test1"
 		},
 		{
 			"name" : "Overload-Test1_IS_TOP_LEVEL",
@@ -1115,7 +1115,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine/overload-test1"
+			"value" : "C:/dev/cplusplus/matching-engine/overload-test1"
 		},
 		{
 			"name" : "RaiiTest_BINARY_DIR",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine/out/build/x64-debug/raii-test"
+			"value" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug/raii-test"
 		},
 		{
 			"name" : "RaiiTest_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine/raii-test"
+			"value" : "C:/dev/cplusplus/matching-engine/raii-test"
 		},
 		{
 			"name" : "matching-engine_BINARY_DIR",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine/out/build/x64-debug"
+			"value" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug"
 		},
 		{
 			"name" : "matching-engine_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/Newfolder/matching-engine"
+			"value" : "C:/dev/cplusplus/matching-engine"
 		}
 	],
 	"kind" : "cache",
