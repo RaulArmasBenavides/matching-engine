@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "matching-engine",
+					"jsonFile" : "directory-matching-engine-Debug-34983e32d39a8080ed80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "matching-engine",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "raii-test",
+					"jsonFile" : "directory-raii-test-Debug-df011610640e30a32ac7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "raii-test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "overload-test1",
+					"jsonFile" : "directory-overload-test1-Debug-0f577480940f16b6f260.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "overload-test1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "matching-engine",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RaiiTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Overload-Test1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Overload-Test1::@59f17eb1bd0f8e7ef08a",
+					"jsonFile" : "target-Overload-Test1-Debug-a2a861332a87110512f8.json",
+					"name" : "Overload-Test1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "matching-engine::@627d087685f105669c28",
+					"jsonFile" : "target-matching-engine-Debug-77084837287774a17d76.json",
+					"name" : "matching-engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raii_test::@3deefb049f4b886bc64e",
+					"jsonFile" : "target-raii_test-Debug-6afab4bb9a4582880034.json",
+					"name" : "raii_test",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/dev/Newfolder/matching-engine/out/build/x64-debug",
+		"source" : "C:/dev/Newfolder/matching-engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
