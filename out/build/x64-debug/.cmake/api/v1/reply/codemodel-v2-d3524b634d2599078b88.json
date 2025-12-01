@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -32,7 +33,7 @@
 					"source" : "matching-engine",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -47,7 +48,7 @@
 					"source" : "raii-test",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -64,6 +65,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "doubly-linked-list",
+					"jsonFile" : "directory-doubly-linked-list-Debug-54dad0c65adffeb5e722.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doubly-linked-list",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -78,12 +94,14 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						4
 					],
 					"name" : "matching-engine",
 					"targetIndexes" : 
 					[
-						1
+						1,
+						2
 					]
 				},
 				{
@@ -95,7 +113,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -121,9 +139,16 @@
 					"projectIndex" : 2
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "doubly-linked-list::@0e25b613bf495bad2586",
+					"jsonFile" : "target-doubly-linked-list-Debug-10da073880e7f64173e8.json",
+					"name" : "doubly-linked-list",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "matching-engine::@627d087685f105669c28",
-					"jsonFile" : "target-matching-engine-Debug-77084837287774a17d76.json",
+					"jsonFile" : "target-matching-engine-Debug-251e1112159b7dde068a.json",
 					"name" : "matching-engine",
 					"projectIndex" : 0
 				},
