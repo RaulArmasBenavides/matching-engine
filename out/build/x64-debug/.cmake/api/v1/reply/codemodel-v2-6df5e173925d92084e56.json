@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -52,6 +53,21 @@
 					]
 				},
 				{
+					"build" : "raii-test2",
+					"jsonFile" : "directory-raii-test2-Debug-d535490f05c96ad8b448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "raii-test2",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
 					"build" : "overload-test1",
 					"jsonFile" : "directory-overload-test1-Debug-0f577480940f16b6f260.json",
 					"minimumCMakeVersion" : 
@@ -59,7 +75,7 @@
 						"string" : "3.20"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 2,
+					"projectIndex" : 3,
 					"source" : "overload-test1",
 					"targetIndexes" : 
 					[
@@ -89,13 +105,14 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
 						0,
 						1,
-						4
+						5
 					],
 					"name" : "matching-engine",
 					"targetIndexes" : 
@@ -121,6 +138,18 @@
 					[
 						3
 					],
+					"name" : "RaiiTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
 					"name" : "Overload-Test1",
 					"parentIndex" : 0,
 					"targetIndexes" : 
@@ -132,16 +161,16 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 4,
 					"id" : "Overload-Test1::@59f17eb1bd0f8e7ef08a",
 					"jsonFile" : "target-Overload-Test1-Debug-a2a861332a87110512f8.json",
 					"name" : "Overload-Test1",
-					"projectIndex" : 2
+					"projectIndex" : 3
 				},
 				{
-					"directoryIndex" : 4,
+					"directoryIndex" : 5,
 					"id" : "doubly-linked-list::@0e25b613bf495bad2586",
-					"jsonFile" : "target-doubly-linked-list-Debug-10da073880e7f64173e8.json",
+					"jsonFile" : "target-doubly-linked-list-Debug-ec515badfbf1c278b765.json",
 					"name" : "doubly-linked-list",
 					"projectIndex" : 0
 				},
@@ -158,6 +187,13 @@
 					"jsonFile" : "target-raii_test-Debug-6afab4bb9a4582880034.json",
 					"name" : "raii_test",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "raii_test2::@096e28fd2a88a2307741",
+					"jsonFile" : "target-raii_test2-Debug-f1091392411c5ed90d3d.json",
+					"name" : "raii_test2",
+					"projectIndex" : 2
 				}
 			]
 		}

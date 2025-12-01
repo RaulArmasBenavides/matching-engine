@@ -187,6 +187,9 @@
 			"path" : "raii-test/CMakeLists.txt"
 		},
 		{
+			"path" : "raii-test2/CMakeLists.txt"
+		},
+		{
 			"path" : "overload-test1/CMakeLists.txt"
 		},
 		{

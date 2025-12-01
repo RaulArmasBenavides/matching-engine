@@ -97,12 +97,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "doubly-linked-list/doubly-linked.cpp",
+			"path" : "doubly-linked-list/doubly-linked-list.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "doubly-linked-list/doubly-linked.h",
+			"path" : "doubly-linked-list/doubly-linked-list.h",
 			"sourceGroupIndex" : 1
 		}
 	],

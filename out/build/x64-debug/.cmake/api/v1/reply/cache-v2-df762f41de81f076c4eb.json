@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "6"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug/raii-test"
+			"value" : "C:/dev/cplusplus/matching-engine/out/build/x64-debug/raii-test2"
 		},
 		{
 			"name" : "RaiiTest_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/dev/cplusplus/matching-engine/raii-test"
+			"value" : "C:/dev/cplusplus/matching-engine/raii-test2"
 		},
 		{
 			"name" : "matching-engine_BINARY_DIR",

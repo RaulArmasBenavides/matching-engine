@@ -14,5 +14,6 @@ project ("matching-engine")
 # Include sub-projects.
 add_subdirectory(matching-engine)
 add_subdirectory(raii-test)
+add_subdirectory(raii-test2)
 add_subdirectory(overload-test1)
 add_subdirectory(doubly-linked-list)
