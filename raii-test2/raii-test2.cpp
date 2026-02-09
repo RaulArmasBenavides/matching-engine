@@ -8,6 +8,7 @@ struct prenda {
 };
 
 int main() {
+    setlocale(LC_CTYPE, "Spanish");
     int n;
     cout << "Cantidad de prendas realmente usadas (n): ";
     cin >> n;
